@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Account_Page">Страница Аккаунта</string>
+    <string name="Login_or_register_using_your_email_">Войдите или зарегистрируйтесь используя свой email.</string>
+    <string name="Next">Продолжить</string>
+    <string name="Confirm_email_address_by_clicking_on_the_link">Подтвердите адрес электронной почты, нажав на ссылку в письме, отправленном на %1$s.</string>
+    <string name="Logout">Выйти</string>
+    <string name="Cancel">Отменить</string>
+</resources>

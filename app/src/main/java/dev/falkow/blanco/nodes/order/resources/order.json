@@ -1,0 +1,599 @@
+{
+  "id": "211921",
+  "number": "44444",
+  "amount": "223000.00",
+  "state": {
+    "code": "released"
+  },
+  "customer": {
+    "id": "242778"
+  },
+  "addTime": "2023-12-22 10:46:32",
+  "updateTime": "2023-12-26 14:40:01",
+  "notes": "доставка на среду",
+  "items": [
+    {
+      "id": "467064",
+      "number": "1",
+      "discountPercent": null,
+      "discountAmount": null,
+      "position": null,
+      "addTime": "2023-12-22 10:46:41",
+      "updateTime": "2023-12-22 10:46:41",
+      "purchaseOrder": {
+        "id": "211921"
+      },
+      "product": {
+        "id": "3578893",
+        "code": "",
+        "sku": "523591",
+        "partNumber": "523591",
+        "size": null,
+        "barcode": "4020684684248",
+        "link": null,
+        "substandard": null,
+        "prepaid": null,
+        "modelName": "",
+        "optionName": "",
+        "manufacturerWarranty": "1",
+        "addTime": "2018-08-03 21:14:01",
+        "updateTime": "2021-06-25 16:25:31",
+        "name": "Кухонная мойка Blanco Subline 480\/320-U серый бежевый",
+        "features": "",
+        "shortDescription": null,
+        "description": "<strong>Дизайнерские мойки для монтажа под столешницу из материала SILGRANIT&reg; PuraDur&reg;<\/strong>\n<ul>\n\t<li>Максимальный объем чаши благодаря современным технологиям производства и установки<\/li>\n\t<li>Монтаж не требует дополнительных затрат<\/li>\n\t<li>Чаши подстольного монтажа для требовательных клиентов<\/li>\n\t<li>Элегантный дизайн моек<\/li>\n\t<li>Широкий выбор больших и малых чаш для разнообразных планировочных решений<\/li>\n\t<li>Элегантный и гигиеничный перелив C-overflow&reg;<\/li>\n\t<li>Отводная арматура InFino&reg; изящно интегрована и проста в уходе<\/li>\n<\/ul>\n<strong>Комплектация<\/strong><br \/>\n<br \/>\nотводная арматура InFino&reg; с двумя корзинчатыми вентилями 3 &frac12;&ldquo;, набор крепежа (уплотнитель в набор не входит).",
+        "model": "Subline 480\/320-U",
+        "foodWasteChopper": null,
+        "automaticValve": "0",
+        "basicBowlsNumber": null,
+        "additionalBowlsNumber": null,
+        "wing": "0",
+        "parent": {
+          "id": "3578885"
+        },
+        "owner": {
+          "id": "103308"
+        },
+        "type": {
+          "id": "523"
+        },
+        "image": {
+          "id": "2417190"
+        },
+        "brand": {
+          "id": "170"
+        },
+        "series": {
+          "id": null
+        },
+        "language": {
+          "code": "ru"
+        },
+        "volume": {
+          "number": null,
+          "unit": {
+            "id": null
+          }
+        },
+        "weight": {
+          "number": null,
+          "unit": {
+            "id": null
+          }
+        },
+        "packWeight": {
+          "number": "18.31000",
+          "unit": {
+            "id": "2"
+          }
+        },
+        "packWidth": {
+          "number": "59.50000",
+          "unit": {
+            "id": "8"
+          }
+        },
+        "packHeight": {
+          "number": "37.90000",
+          "unit": {
+            "id": "8"
+          }
+        },
+        "packLength": {
+          "number": "110.10000",
+          "unit": {
+            "id": "8"
+          }
+        },
+        "material": {
+          "id": "633"
+        },
+        "form": {
+          "id": "644"
+        },
+        "color": {
+          "id": "57"
+        },
+        "length": {
+          "number": "85.50",
+          "unit": {
+            "id": "8"
+          }
+        },
+        "width": {
+          "number": "46.00",
+          "unit": {
+            "id": "8"
+          }
+        },
+        "cupDepth": {
+          "number": "20.00",
+          "unit": {
+            "id": "8"
+          }
+        },
+        "wingPosition": {
+          "id": null
+        },
+        "baseUnitWidth": {
+          "number": "90.00",
+          "unit": {
+            "id": "8"
+          }
+        },
+        "installationMethod": {
+          "id": "669"
+        },
+        "steelThickness": {
+          "number": null,
+          "unit": {
+            "id": null
+          }
+        },
+        "bowls": {
+          "id": "885"
+        },
+        "drainer": {
+          "id": "887"
+        },
+        "bowlPosition": {
+          "id": null
+        }
+      },
+      "price": {
+        "number": "94700.00",
+        "currency": {
+          "id": "1"
+        }
+      },
+      "qty": {
+        "number": "1.00",
+        "unit": {
+          "id": "10"
+        }
+      },
+      "discount": {
+        "rate": null,
+        "amount": {
+          "number": null,
+          "currency": {
+            "id": null
+          }
+        }
+      },
+      "amount": {
+        "number": "94700.00",
+        "currency": {
+          "id": "1"
+        }
+      },
+      "deadline": {
+        "number": null,
+        "unit": {
+          "id": null
+        }
+      }
+    },
+    {
+      "id": "467065",
+      "number": "2",
+      "discountPercent": null,
+      "discountAmount": null,
+      "position": null,
+      "addTime": "2023-12-22 10:46:47",
+      "updateTime": "2023-12-22 10:46:47",
+      "purchaseOrder": {
+        "id": "211921"
+      },
+      "product": {
+        "id": "4194880",
+        "code": "",
+        "sku": "526694",
+        "partNumber": "526694",
+        "size": null,
+        "barcode": "",
+        "link": null,
+        "substandard": null,
+        "prepaid": null,
+        "modelName": "",
+        "optionName": "",
+        "manufacturerWarranty": "1",
+        "addTime": "2022-11-22 20:01:50",
+        "updateTime": "2023-07-15 13:27:45",
+        "name": "Смеситель Blanco Fontas-S II сатин золото",
+        "features": "",
+        "shortDescription": null,
+        "description": "<p>Фильтрованная вода.&nbsp;Лучший вкус.&nbsp;Идеальное решение с выдвижной лейкой.&nbsp;Смеситель BLANCO FONTAS-S II&nbsp;с подключением фильтра.<\/p>\n\n<p>Чистая вода без примесей. Компания BLANCO&nbsp;представляет первый в мире смеситель для&nbsp;подключения фильтра с выдвижным изливом. Наиболее востребованные функции смесителя теперь доступны в&nbsp;одном уникальном предложении BLANCO FONTAS-S II.<\/p>\n\n<p>Как и у всех смесителей BLANCO для подключения&nbsp;фильтра в новинке предусмотрены два отдельных&nbsp;рычага для управления подачей питьевой и&nbsp;водопроводной воды, для холодной и горячей - справа и для фильтрованной - слева. В новом смесителе, как и в прежних версиях, питьевая и&nbsp;водопроводная вода подаются по разным шлангам&nbsp;и выводятся через разные изливы, обеспечивая гигиеничность.<\/p>\n\n<p>Смеситель с краном для питьевой воды&nbsp;BLANCO FONTAS-S II предоставляет максимальный&nbsp;комфорт на кухне. Абсолютная инновация: выдвижной&nbsp;излив в смесителе с подключением фильтра. Новинку&nbsp;удобно использовать, например, для наполнения&nbsp;кофемашины или чайника. Удобство выдвижного&nbsp;излива для водопроводной воды уже знакомо и&nbsp;востребовано миллионами покупателей - с его&nbsp;помощью можно аккуратно помыть габаритную посуду&nbsp;и гораздо удобнее приводить в порядок мойку.<\/p>\n\n<p>Новинка доступна с разными видами поверхностей:&nbsp;хромированная, нержавеющая сталь UltraResist и в цветах материала SILGRANIT.<\/p>\n\n<ul>\n\t<li>Угол поворота излива 180&deg;<\/li>\n\t<li>Требуется отверстие под смеситель &Oslash; 35 мм<\/li>\n\t<li>Керамический дисковый картридж<\/li>\n\t<li>Шланг выдвижного излива в нейлоновой оплетке<\/li>\n\t<li>Подходит для систем фильтрации воды с обратным осмосом<\/li>\n\t<li>Легкое подключение гибкими шлангами <strong>длиной 450 мм с гайкой 3\/8&ldquo;<\/strong><\/li>\n\t<li>Стабилизирующая пластина для увеличения устойчивости смесителя<\/li>\n\t<li>Возвратный клапан, предотвращающий возврат воды в соответствии с EN 1717<\/li>\n<\/ul>",
+        "model": "Fontas-S II",
+        "parent": {
+          "id": "3682496"
+        },
+        "owner": {
+          "id": "103308"
+        },
+        "type": {
+          "id": "763"
+        },
+        "image": {
+          "id": "2678866"
+        },
+        "brand": {
+          "id": "170"
+        },
+        "series": {
+          "id": null
+        },
+        "language": {
+          "code": "ru"
+        },
+        "volume": {
+          "number": null,
+          "unit": {
+            "id": null
+          }
+        },
+        "weight": {
+          "number": null,
+          "unit": {
+            "id": null
+          }
+        },
+        "packWeight": {
+          "number": "3.70000",
+          "unit": {
+            "id": "2"
+          }
+        },
+        "packWidth": {
+          "number": "17.00000",
+          "unit": {
+            "id": "8"
+          }
+        },
+        "packHeight": {
+          "number": "6.50000",
+          "unit": {
+            "id": "8"
+          }
+        },
+        "packLength": {
+          "number": "72.00000",
+          "unit": {
+            "id": "8"
+          }
+        },
+        "color": {
+          "id": "38"
+        },
+        "design": {
+          "id": null
+        },
+        "height": {
+          "number": "30.60",
+          "unit": {
+            "id": "8"
+          }
+        },
+        "material": {
+          "id": "647"
+        },
+        "purpose": {
+          "id": "656"
+        },
+        "cover": {
+          "id": null
+        },
+        "surface": {
+          "id": null
+        },
+        "can": {
+          "id": "869"
+        },
+        "control": {
+          "id": "913"
+        },
+        "filteredWaterSupply": {
+          "id": "875"
+        },
+        "bottomValve": {
+          "id": null
+        },
+        "spoutLength": {
+          "number": null,
+          "unit": {
+            "id": null
+          }
+        },
+        "spoutReach": {
+          "number": "21.60",
+          "unit": {
+            "id": "8"
+          }
+        },
+        "spoutHeight": {
+          "number": "27.00",
+          "unit": {
+            "id": "8"
+          }
+        },
+        "turningRadius": {
+          "number": "180.00",
+          "unit": {
+            "id": "55"
+          }
+        },
+        "maxTabletopThickness": {
+          "number": "59.00",
+          "unit": {
+            "id": "18"
+          }
+        },
+        "extendableHoseLength": {
+          "number": null,
+          "unit": {
+            "id": null
+          }
+        },
+        "installationHoleDiameter": {
+          "number": "35.00",
+          "unit": {
+            "id": "18"
+          }
+        },
+        "waterConsumption": {
+          "number": null,
+          "unit": {
+            "id": null
+          }
+        }
+      },
+      "price": {
+        "number": "78300.00",
+        "currency": {
+          "id": "1"
+        }
+      },
+      "qty": {
+        "number": "1.00",
+        "unit": {
+          "id": "10"
+        }
+      },
+      "discount": {
+        "rate": null,
+        "amount": {
+          "number": null,
+          "currency": {
+            "id": null
+          }
+        }
+      },
+      "amount": {
+        "number": "78300.00",
+        "currency": {
+          "id": "1"
+        }
+      },
+      "deadline": {
+        "number": null,
+        "unit": {
+          "id": null
+        }
+      }
+    },
+    {
+      "id": "467066",
+      "number": "3",
+      "discountPercent": null,
+      "discountAmount": null,
+      "position": null,
+      "addTime": "2023-12-22 10:46:59",
+      "updateTime": "2023-12-22 10:46:59",
+      "purchaseOrder": {
+        "id": "211921"
+      },
+      "product": {
+        "id": "4363231",
+        "code": "",
+        "sku": "203476",
+        "partNumber": "203476",
+        "size": null,
+        "barcode": "",
+        "link": null,
+        "substandard": null,
+        "prepaid": null,
+        "modelName": "",
+        "optionName": "",
+        "manufacturerWarranty": "1",
+        "addTime": "2023-07-06 15:00:56",
+        "updateTime": "2023-07-15 13:26:04",
+        "name": "Набор декоративных элементов C-overflow и InFino® одна чаша сатин золото",
+        "features": "",
+        "shortDescription": null,
+        "description": "",
+        "serialNumber": null,
+        "partnerSerialNumber": null,
+        "parent": {
+          "id": null
+        },
+        "owner": {
+          "id": "103308"
+        },
+        "type": {
+          "id": null
+        },
+        "image": {
+          "id": "2683950"
+        },
+        "brand": {
+          "id": null
+        },
+        "series": {
+          "id": null
+        },
+        "language": {
+          "code": "ru"
+        },
+        "product": {
+          "id": null
+        },
+        "partner": {
+          "id": null
+        }
+      },
+      "price": {
+        "number": "25000.00",
+        "currency": {
+          "id": "1"
+        }
+      },
+      "qty": {
+        "number": "2.00",
+        "unit": {
+          "id": "10"
+        }
+      },
+      "discount": {
+        "rate": null,
+        "amount": {
+          "number": null,
+          "currency": {
+            "id": null
+          }
+        }
+      },
+      "amount": {
+        "number": "50000.00",
+        "currency": {
+          "id": "1"
+        }
+      },
+      "deadline": {
+        "number": null,
+        "unit": {
+          "id": null
+        }
+      }
+    },
+    {
+      "id": "467067",
+      "number": "4",
+      "discountPercent": null,
+      "discountAmount": null,
+      "position": null,
+      "addTime": "2023-12-22 10:47:12",
+      "updateTime": "2023-12-22 10:47:12",
+      "purchaseOrder": {
+        "id": "211921"
+      },
+      "product": {
+        "id": "4388303",
+        "code": "",
+        "sku": "",
+        "partNumber": "",
+        "size": null,
+        "barcode": "",
+        "link": null,
+        "substandard": null,
+        "prepaid": null,
+        "modelName": "",
+        "optionName": "",
+        "manufacturerWarranty": "0",
+        "addTime": "2023-12-22 10:47:12",
+        "updateTime": "2023-12-22 10:47:12",
+        "name": "Доставка заказа",
+        "features": "",
+        "shortDescription": null,
+        "description": "",
+        "date": null,
+        "fromTime": null,
+        "toTime": null,
+        "minTime": null,
+        "maxTime": null,
+        "parent": {
+          "id": null
+        },
+        "owner": {
+          "id": null
+        },
+        "type": {
+          "id": "224"
+        },
+        "image": {
+          "id": null
+        },
+        "brand": {
+          "id": null
+        },
+        "series": {
+          "id": null
+        },
+        "language": {
+          "code": "ru"
+        },
+        "deliveryAddress": {
+          "id": "55097"
+        },
+        "pickupPoint": {
+          "id": null
+        },
+        "courier": {
+          "id": null
+        }
+      },
+      "price": {
+        "number": null,
+        "currency": {
+          "id": null
+        }
+      },
+      "qty": {
+        "number": "1.00",
+        "unit": {
+          "id": "10"
+        }
+      },
+      "discount": {
+        "rate": null,
+        "amount": {
+          "number": null,
+          "currency": {
+            "id": null
+          }
+        }
+      },
+      "amount": {
+        "number": null,
+        "currency": {
+          "id": null
+        }
+      },
+      "deadline": {
+        "number": null,
+        "unit": {
+          "id": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">BlancoMoscow</string>
+    <string name="default_notification_channel_id" translatable="false">Global</string>
+    <string name="Account_Page">Account Page</string>
+    <string name="Login_or_register_using_your_email_">Login or register using your email.</string>
+    <string name="Next">Next</string>
+    <string name="Confirm_email_address_by_clicking_on_the_link">Confirm email address by clicking on the link in the email sent to %1$s.</string>
+    <string name="Logout">Logout</string>
+    <string name="Cancel">Cancel</string>
+</resources>

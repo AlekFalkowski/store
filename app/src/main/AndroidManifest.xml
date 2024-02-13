@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    Internet connection permission.    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--    Позволяет приложениям получать доступ к информации о сетях:    -->
+    <!--    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />-->
+
+    <!--    Чтобы получить список учетных записей на устройстве, вашему приложению необходимо разрешение GET_ACCOUNTS -->
+    <!--    <uses-permission android:name="android.permission.GET_ACCOUNTS" />-->
+
+    <!--    Разрешение на получение доступа к камере на устройствах с камерой     -->
+    <!--    <uses-permission android:name="android.permission.CAMERA"/>-->
+    <!--    <uses-feature-->
+    <!--        android:name="android.hardware.camera"-->
+    <!--        android:required="false" />-->
+    <!--    Благодаря объявлениям, показанным в этих примерах, устройства без камеры или с версией Android ниже 8.0 не смогут установить ваше приложение из Google Play. Однако вы также можете заявить, что ваше приложение использует камеру, но не требует ее. Для этого вы устанавливаете атрибут required на false, во время выполнения проверяете, есть ли в устройстве камера, и при необходимости отключаете все функции камеры.-->
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:enableOnBackInvokedCallback="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+        <!--android:theme="@style/Theme.Blanco">-->
+        <activity
+            android:name=".AppActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Blanco">
+            <!--    Intent Filter For App Links with App Links Verification   -->
+            <!--            <intent-filter android:autoVerify="true">-->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:host="dev.falkow.blanco" />
+                <!--                <data android:host="blanco.moscow" />-->
+                <!--    <data android:host="www.blanco.moscow" />-->
+            </intent-filter>
+            <!--    Main Intent Filter For Starting App    -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!--    Intent Filter For Firebase Cloud Messaging    -->
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+            <!--    Intent Filter For Firebase Dynamic Links    -->
+            <!--    Dynamic Links need for Firebase Authentication   -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="https" />
+                <data android:host="blanco-d4046.firebaseapp.com" />
+                <!--    <data android:scheme="https" />-->
+                <!--    <data android:host="falkow.page.link" />-->
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".IncomingMessageService"
+            android:directBootAware="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+    </application>
+</manifest>

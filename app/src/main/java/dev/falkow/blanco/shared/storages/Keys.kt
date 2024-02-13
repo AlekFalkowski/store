@@ -1,0 +1,28 @@
+package dev.falkow.blanco.shared.storages
+
+// enum class Keys {
+//
+//     APP_COLOR_SCHEME,
+//     APP_COLOR_THEME,
+//     APP_DYNAMIC_COLOR,
+//
+//     ACCOUNT_EMAIL,
+//
+//     CATALOG_CARD_LIST_DISPLAY_FORM,
+//     CATALOG_QUERY_STRING,
+//
+//     GALLERY_BUTTONS_DISPLAY_STATE
+// }
+
+object Keys {
+    const val APP_COLOR_SCHEME = "APP_COLOR_SCHEME"
+    const val APP_COLOR_THEME = "APP_COLOR_THEME"
+    const val APP_DYNAMIC_COLOR = "APP_DYNAMIC_COLOR"
+
+    const val ACCOUNT_EMAIL = "ACCOUNT_EMAIL"
+
+    const val CATALOG_CARD_LIST_DISPLAY_FORM = "CATALOG_CARD_LIST_DISPLAY_FORM"
+    const val CATALOG_QUERY_STRING = "CATALOG_QUERY_STRING"
+
+    const val GALLERY_BUTTONS_DISPLAY_STATE = "GALLERY_BUTTONS_DISPLAY_STATE"
+}

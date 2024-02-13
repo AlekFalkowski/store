@@ -1,0 +1,95 @@
+[versions]
+androidxActivityCompose = "1.9.0-alpha03" # https://developer.android.com/jetpack/androidx/releases/activity
+androidxAppcompat = "1.7.0-alpha03" # https://developer.android.com/jetpack/androidx/releases/appcompat
+androidxComposeBOM = "2024.02.00" # https://developer.android.com/jetpack/compose/bom
+androidxComposeMaterial3 = "1.2.0" # https://developer.android.com/jetpack/androidx/releases/compose-material3
+androidxCoreKtx = "1.13.0-alpha05" # https://developer.android.com/jetpack/androidx/releases/core
+androidxDataStore = "1.1.0-beta01" # https://developer.android.com/jetpack/androidx/releases/datastore
+androidxHilt = "1.2.0-rc01" # https://developer.android.com/jetpack/androidx/releases/hilt
+androidxLifecycle = "2.8.0-alpha01" # https://developer.android.com/jetpack/androidx/releases/lifecycle
+androidxNavigation = "2.8.0-alpha02" # https://developer.android.com/jetpack/androidx/releases/navigation
+androidxRoom = "2.6.1" # https://developer.android.com/jetpack/androidx/releases/room
+androidxTestEspressoCore = "3.5.1"
+androidxTestExtJunit = "1.1.5"
+androidxWork = "2.10.0-alpha01" # https://developer.android.com/jetpack/androidx/releases/work
+coilKt = "2.5.0" # https://coil-kt.github.io/coil/#download
+googleAccompanist = "0.34.0" # https://google.github.io/accompanist/systemuicontroller/
+googleHilt = "2.50" # https://github.com/google/dagger/releases
+googleFirebaseBOM = "32.7.2" # https://firebase.google.com/support/release-notes/android
+jetbrainsKotlinxCoroutines = "1.8.0-RC2" # https://github.com/Kotlin/kotlinx.coroutines/releases
+jetbrainsKotlinxSerializationJson = "1.6.2" # https://github.com/Kotlin/kotlinx.serialization
+junit = "4.13.2"
+squareupOkhttp = "4.12.0" # https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp
+squareupRetrofit = "2.9.0" # https://github.com/square/retrofit
+squareupRetrofitKotlinxSerializationConverter = "1.0.0" # https://github.com/JakeWharton/retrofit2-kotlinx-serialization-converter
+
+[libraries]
+androidx-activityCompose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidxActivityCompose" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidxAppcompat" }
+androidx-composeBOM = { group = "androidx.compose", name = "compose-bom", version.ref = "androidxComposeBOM" }
+androidx-composeFoundation = { group = "androidx.compose.foundation", name = "foundation" }
+androidx-composeFoundationLayout = { group = "androidx.compose.foundation", name = "foundation-layout" }
+androidx-composeMaterialIconsExtended = { group = "androidx.compose.material", name = "material-icons-extended" }
+androidx-composeMaterial3 = { group = "androidx.compose.material3", name = "material3", version.ref = "androidxComposeMaterial3" }
+androidx-composeMaterial3WindowSizeClass = { group = "androidx.compose.material3", name = "material3-window-size-class", version.ref = "androidxComposeMaterial3" }
+androidx-composeRuntime = { group = "androidx.compose.runtime", name = "runtime" }
+androidx-composeRuntimeLivedata = { group = "androidx.compose.runtime", name = "runtime-livedata" }
+androidx-composeUi = { group = "androidx.compose.ui", name = "ui" }
+androidx-composeUiGraphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-composeUiTooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-composeUiTestJunit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-composeUiTestManifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-composeUiToolingPreview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-composeUiUtil = { group = "androidx.compose.ui", name = "ui-util" }
+androidx-coreKtx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCoreKtx" }
+androidx-dataStoreCore = { group = "androidx.datastore", name = "datastore", version.ref = "androidxDataStore" }
+androidx-dataStorePreferences = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "androidxDataStore" }
+androidx-hiltNavigationCompose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "androidxHilt" }
+androidx-hiltWork = { group = "androidx.hilt", name = "hilt-work", version.ref = "androidxHilt" }
+androidx-lifecycleRuntimeKtx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "androidxLifecycle" }
+androidx-lifecycleRuntimeCompose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidxLifecycle" }
+androidx-lifecycleViewModelCompose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "androidxLifecycle" }
+androidx-navigationCompose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidxNavigation" }
+androidx-roomCompiler = { group = "androidx.room", name = "room-compiler", version.ref = "androidxRoom" }
+androidx-roomKtx = { group = "androidx.room", name = "room-ktx", version.ref = "androidxRoom" }
+androidx-roomRuntime = { group = "androidx.room", name = "room-runtime", version.ref = "androidxRoom" }
+androidx-testEspressoCore = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidxTestEspressoCore" }
+androidx-testExtJunit = { group = "androidx.test.ext", name = "junit", version.ref = "androidxTestExtJunit" }
+androidx-workKtx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "androidxWork" }
+coil-ktCoilCompose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coilKt" }
+coil-ktCoilSvg = { group = "io.coil-kt", name = "coil-svg", version.ref = "coilKt" }
+google-accompanistSystemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "googleAccompanist" }
+google-hiltAndroid = { group = "com.google.dagger", name = "hilt-android", version.ref = "googleHilt" }
+google-hiltAndroidCompiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "googleHilt" }
+google-hiltAndroidTesting = { group = "com.google.dagger", name = "hilt-android-testing", version.ref = "googleHilt" }
+google-firebaseBOM = { group = "com.google.firebase", name = "firebase-bom", version.ref = "googleFirebaseBOM" }
+google-firebaseAnalyticsKtx = { group = "com.google.firebase", name = "firebase-analytics-ktx" }
+google-firebaseAuthKtx = { group = "com.google.firebase", name = "firebase-auth-ktx" }
+google-firebaseDatabaseKtx = { group = "com.google.firebase", name = "firebase-database-ktx" }
+google-firebaseDynamicLinksKtx = { group = "com.google.firebase", name = "firebase-dynamic-links-ktx" }
+google-firebaseMessagingKtx = { group = "com.google.firebase", name = "firebase-messaging-ktx" }
+google-firebaseStorageKtx = { group = "com.google.firebase", name = "firebase-storage-ktx" }
+jetbrains-kotlinxCoroutinesAndroid = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "jetbrainsKotlinxCoroutines" }
+jetbrains-kotlinxCoroutinesCore = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "jetbrainsKotlinxCoroutines"  }
+jetbrains-kotlinxSerializationJson = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "jetbrainsKotlinxSerializationJson" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+squareup-okhttpCore = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "squareupOkhttp" }
+squareup-okhttpLoggingInterceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "squareupOkhttp" }
+squareup-retrofitCore = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "squareupRetrofit" }
+squareup-retrofitConverterScalars = { group = "com.squareup.retrofit2", name = "converter-scalars", version.ref = "squareupRetrofit" }
+squareup-retrofitKotlinxSerializationConverter = { group = "com.jakewharton.retrofit", name = "retrofit2-kotlinx-serialization-converter", version.ref = "squareupRetrofitKotlinxSerializationConverter" }
+
+[plugins]
+# Android Gradle plugin.
+android-application = { id = "com.android.application", version = "8.4.0-alpha09" } # https://developer.android.com/reference/tools/gradle-api
+android-library = { id = "com.android.library", version = "8.4.0-alpha09" } # https://developer.android.com/build/releases/gradle-plugin
+# Kotlin version.
+jetbrains-kotlinAndroid = { id = "org.jetbrains.kotlin.android", version = "1.9.22" } # https://plugins.gradle.org/plugin/org.jetbrains.kotlin.android
+jetbrains-kotlinJvm = { id = "org.jetbrains.kotlin.jvm", version = "1.9.22" } # https://plugins.gradle.org/plugin/org.jetbrains.kotlin.android
+jetbrains-kotlinPluginSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "1.9.22" } # https://kotlinlang.org/docs/serialization.html
+google-devtoolsKsp = { id = "com.google.devtools.ksp", version = "1.9.22-1.0.16" } # https://central.sonatype.com/artifact/com.google.devtools.ksp/com.google.devtools.ksp.gradle.plugin
+google-hiltAndroid = { id = "com.google.dagger.hilt.android", version.ref = "googleHilt" }
+# This plugin converts the google-services.json file for Firebase.
+google-gmsGoogleServices = { id = "com.google.gms.google-services", version = "4.4.1" } # https://github.com/google/play-services-plugins/blob/master/google-services-plugin/README.md
+
+[bundles]

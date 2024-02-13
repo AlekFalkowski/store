@@ -1,0 +1,306 @@
+{
+  "title": "Catalog Title",
+  "filterConfig": [
+    {
+      "label": "Sort",
+      "fieldList": [
+        {
+          "type": "singleChoice",
+          "label": "Sort By",
+          "name": "sort",
+          "options": [
+            {
+              "label": "Price",
+              "value": "[prices][number]"
+            },
+            {
+              "label": "Cabinet width",
+              "value": "[product][baseUnitWidth][number]"
+            },
+            {
+              "label": "Bowl Depth",
+              "value": "[product][cupDepth][number]"
+            },
+            {
+              "label": "Sink Length",
+              "value": "[product][length][number]"
+            }
+          ]
+        },
+        {
+          "type": "singleChoice",
+          "label": "Sort Order",
+          "name": "order",
+          "options": [
+            {
+              "label": "Ascending",
+              "value": "asc"
+            },
+            {
+              "label": "Descending",
+              "value": "desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Price",
+      "fieldList": [
+        {
+          "type": "range",
+          "label": "Price",
+          "name": "prices[number][min]",
+          "endName": "prices[number][max]"
+        }
+      ]
+    },
+    {
+      "label": "Configuration",
+      "fieldList": [
+        {
+          "type": "multiChoice",
+          "label": "Installation Methods",
+          "name": "product[installationMethods][id][]",
+          "options": [
+            {
+              "label": "In the table top from above",
+              "value": "667"
+            },
+            {
+              "label": "Flush with the countertop",
+              "value": "668"
+            },
+            {
+              "label": "Under-table",
+              "value": "669"
+            }
+          ]
+        },
+        {
+          "type": "multiChoice",
+          "label": "Drainer",
+          "name": "product[drainer][id][]",
+          "options": [
+            {
+              "label": "Without Drainer",
+              "value": "887"
+            },
+            {
+              "label": "With Drainer",
+              "value": "886"
+            }
+          ]
+        },
+        {
+          "type": "multiChoice",
+          "label": "Number Of Bowls",
+          "name": "product[bowls][id][]",
+          "options": [
+            {
+              "label": "One",
+              "value": "884"
+            },
+            {
+              "label": "Two",
+              "value": "885"
+            }
+          ]
+        },
+        {
+          "type": "multiChoice",
+          "label": "Main Bowl Position",
+          "name": "product[bowlPosition][id][]",
+          "options": [
+            {
+              "label": "On the left",
+              "value": "1087"
+            },
+            {
+              "label": "On the right",
+              "value": "1088"
+            }
+          ]
+        },
+        {
+          "type": "multiChoice",
+          "label": "Form",
+          "name": "product[form][id][]",
+          "options": [
+            {
+              "label": "Round",
+              "value": "642"
+            },
+            {
+              "label": "Rectangular",
+              "value": "644"
+            },
+            {
+              "label": "Corner",
+              "value": "645"
+            }
+          ]
+        },
+        {
+          "type": "multiChoice",
+          "label": "Material",
+          "name": "product[material][id][]",
+          "options": [
+            {
+              "label": "Fake diamond",
+              "value": "633"
+            },
+            {
+              "label": "Ceramics",
+              "value": "635"
+            },
+            {
+              "label": "Stainless steel",
+              "value": "638"
+            }
+          ]
+        },
+        {
+          "type": "multiChoice",
+          "label": "Color",
+          "name": "product[color][id][]",
+          "options": [
+            {
+              "label": "Alumetallic",
+              "value": "55"
+            },
+            {
+              "label": "Anthracite",
+              "value": "49"
+            },
+            {
+              "label": "White",
+              "value": "8"
+            },
+            {
+              "label": "Vulcan gray",
+              "value": "95"
+            },
+            {
+              "label": "Jasmine",
+              "value": "51"
+            },
+            {
+              "label": "Coffee",
+              "value": "50"
+            },
+            {
+              "label": "Muscat",
+              "value": "61"
+            },
+            {
+              "label": "Soft white",
+              "value": "94"
+            },
+            {
+              "label": "Gray aluminum",
+              "value": "57"
+            },
+            {
+              "label": "Gray beige",
+              "value": "52"
+            },
+            {
+              "label": "dark rock",
+              "value": "54"
+            },
+            {
+              "label": "Black",
+              "value": "1"
+            },
+            {
+              "label": "Champagne",
+              "value": "48"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Dimensions",
+      "fieldList": [
+        {
+          "type": "multiChoice",
+          "label": "Cabinet Width",
+          "name": "product[baseUnitWidth][][number]",
+          "options": [
+            {
+              "label": "30 sm",
+              "value": "30.00"
+            },
+            {
+              "label": "40 sm",
+              "value": "40.00"
+            },
+            {
+              "label": "45 sm",
+              "value": "45.00"
+            },
+            {
+              "label": "50 sm",
+              "value": "50.00"
+            },
+            {
+              "label": "60 sm",
+              "value": "60.00"
+            },
+            {
+              "label": "80 sm",
+              "value": "80.00"
+            },
+            {
+              "label": "90 sm",
+              "value": "90.00"
+            }
+          ]
+        },
+        {
+          "type": "range",
+          "label": "Cup Depth",
+          "name": "product[cupDepth][number][min]",
+          "endName": "product[cupDepth][number][max]"
+        },
+        {
+          "type": "range",
+          "label": "Sink Length",
+          "name": "product[length][number][min]",
+          "endName": "product[length][number][max]"
+        },
+        {
+          "type": "range",
+          "label": "Sink Width",
+          "name": "product[width][number][min]",
+          "endName": "product[width][number][max]"
+        },
+        {
+          "type": "multiChoice",
+          "label": "Steel Thickness",
+          "name": "product[steelThickness][][number]",
+          "options": [
+            {
+              "label": "0.7 mm",
+              "value": "0.70"
+            },
+            {
+              "label": "0.8 mm",
+              "value": "0.80"
+            },
+            {
+              "label": "0.9 mm",
+              "value": "0.90"
+            },
+            {
+              "label": "1.1 mm",
+              "value": "1.10"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
